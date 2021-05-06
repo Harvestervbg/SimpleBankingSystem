@@ -79,6 +79,7 @@ public class Main {
                         int Money = scanner.nextInt();
                         Base.addIncome(Money, curCar.currentCardNumber);
                         System.out.println("Income was added!\n");
+                        System.out.println(" ");
                         break;
                     case "3":
                         System.out.println("Enter card number:");
